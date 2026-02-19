@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "structurecapsule",
+  "version": "${version}",
+  "name": "Structure Capsule",
+  "description": "Save and place structures using capsule items with ghost preview and async placement.",
+  "authors": [
+    "YamiKnight"
+  ],
+  "contact": {
+    "homepage": "https://github.com/YamiKnight/structure-capsule",
+    "sources": "https://github.com/YamiKnight/structure-capsule"
+  },
+  "license": "MIT",
+  "icon": "assets/structurecapsule/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.yamiknight.structurecapsule.StructureCapsuleMod"
+    ],
+    "client": [
+      "com.yamiknight.structurecapsule.StructureCapsuleClient"
+    ]
+  },
+  "mixins": [
+    "structurecapsule.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "item.structurecapsule.empty_capsule": "Empty Capsule",
+  "item.structurecapsule.filled_capsule": "Filled Capsule",
+  "itemGroup.structurecapsule.general": "Structure Capsule",
+  
+  "structurecapsule.gui.title": "Save Structure",
+  "structurecapsule.gui.name": "Structure Name",
+  "structurecapsule.gui.color": "Preview Color (Hex)",
+  "structurecapsule.gui.save": "Save Structure",
+  "structurecapsule.gui.cancel": "Cancel",
+  
+  "structurecapsule.message.pos1_set": "Position 1 set: %s",
+  "structurecapsule.message.pos2_set": "Position 2 set: %s",
+  "structurecapsule.message.no_positions": "You must set both positions first!",
+  "structurecapsule.message.structure_saved": "Structure '%s' saved successfully! (%d blocks)",
+  "structurecapsule.message.structure_placed": "Structure '%s' placed. Building...",
+  "structurecapsule.message.structure_not_found": "Structure not found: %s",
+  "structurecapsule.message.invalid_name": "Invalid structure name!",
+  "structurecapsule.message.too_large": "Structure too large! Max: %d blocks",
+  "structurecapsule.message.capsule_given": "Given filled capsule with structure: %s",
+  
+  "structurecapsule.tooltip.structure": "Structure: %s",
+  "structurecapsule.tooltip.dimensions": "Dimensions: %dx%dx%d",
+  "structurecapsule.tooltip.blocks": "Blocks: %d",
+  
+  "structurecapsule.command.list.header": "Available structures:",
+  "structurecapsule.command.list.entry": "- %s",
+  "structurecapsule.command.list.empty": "No saved structures found."
+}
